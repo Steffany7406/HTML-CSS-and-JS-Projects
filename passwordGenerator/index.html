@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="Phoenix Company [Tamanho original].png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <meta name="keywords" content="Gerador de senhas, gerador password">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img class="logo" src="logo.png" alt="Gerador de senhas">
+
+    <main class="container-input">
+        <span>Tamanho <span id="valor"></span> caracteres:</span>
+        <input class="slider" type="range" id="slider" value="15" min="5" max="25">
+
+        <button id="button" class="button-cta">Gerar Senha</button>
+    </main>
+
+    <div id="container-password" class="container-password hide">
+        <span class="title">Sua senha gerada foi:</span>
+        <span id="password"  class="password">987654321</span>
+        <span class="tooltip">Clique na senha para copiar.</span>
+    </div>
+
+    <footer>
+        <a href="http://https://github.com/Steffany7406"><img src="Phoenix Company [Tamanho original].png" alt="link github" class="logomark"></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

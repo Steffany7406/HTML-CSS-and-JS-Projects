@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazinga!</title>
+    <style>
+        body{ 
+            background-image: url(R.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        h1{
+            color: red;
+            font-size: 60px;
+        }
+        h2{
+            font-size: 25px;
+            color: white;
+            text-align: center;
+            justify-content: start;
+
+        }
+        label{
+            font-size: 25px;
+            color: rgb(255, 0, 0);
+            box-sizing: border-box;
+        }
+        input, button{
+            padding: 18px;
+            width: 220px;
+            border-radius: 8px;
+        }
+    </style>
+
+</head>
+<body>
+    <script src="pedra.js"></script>
+        <h1>Pedra, Papel, Tesoura!</h1>
+            <h2>Pronto pro estilo Sheldon?</h2>
+                <br><br><br><br><br><br>
+        <label for="game">Digite sua escolha:</label>
+    <br>
+        <input id="play" type="text" placeholder="pedra, papel, tesoura, lagarto, Spock">
+    <br><br>
+        <button onclick="jogo(gameRules)">Bazinga!!</button>
+</body>
+</html>

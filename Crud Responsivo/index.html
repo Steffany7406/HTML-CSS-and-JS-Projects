@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="Phoenix Company [Tamanho original].png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cadastro - Phoenix's Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span>Cadastro de Funcionários</span>
+            <button onclick="openModal()" id="new">Incluir</i></button>
+        </div>
+
+        <div class="divTable">
+            <table>
+                <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Função</th>
+                    <th>Salário</th>
+                    <th class="acao"><i class="fa-solid fa-pen-to-square"></i> Editar</th>
+                    <th class="acao"><i class="fa-solid fa-trash"></i> Excluir</th>
+                </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    
+
+    <div class="modal-container">
+        <div class="modal">
+            <form>
+                <label for="m-nome">Nome:</label>
+                <input id="m-nome" type="text" required>
+
+                <label for="m-funcao">Função:</label>
+                <input id="m-funcao" type="text" required>
+
+                <label for="m-salario">Salário:</label>
+                <input id="m-salario" type="number" required>
+                <button id="btnSalvar">Salvar</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

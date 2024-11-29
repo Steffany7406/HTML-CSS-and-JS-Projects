@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="Phoenix Company [Tamanho original].png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoenix Company's Mario Jump Challenge</title>
+    <link rel="stylesheet" href="GameOn.css">
+</head>
+<body>
+    <script type="text/javascript" src="GameOn.js" defer></script>
+    <img class="title-body" src="Mario_Series_Logo.svg.png" alt="Supermario">
+    <p>Pressione J para pular</p>
+
+    <div class="game-board">
+        <img src="mario.gif" class="mario jump">
+        <img src="pipe.png" class="pipe">
+        <img src="clouds.png" class="clouds">
+        <button class="start-button" onclick="startGame()">Start</button>
+    </div>
+    <div class="game-over">
+        <h1>Game Over</h1>
+        <button onclick="restartGame()">Start Again</button>
+    </div>
+</body>
+</html>
